@@ -5,7 +5,6 @@
 html {
 	height: 100vh;
 }
-
 body {
 	text-align: center;
 	font-family: 'Libre Franklin', sans-serif;
@@ -15,57 +14,43 @@ h1 {
 	font-weight: 300;
 	margin-bottom: 10px;
 	color: hsl(0, 0%, 59%);
-	
 }
 span {
 	font-weight: 700;
 	color: black;
 }
-
 input:focus {
 	outline:  none;
 	border: 1px solid hsl(223, 100%, 88%);
 	border-radius: 15px;
 	background-color: #fff;
+	color: black;
+	opacity: 1;
 }
-
-
 .logo {
 	height: 20px;
 }
 .subHeading {
 	font-size: 15px;
-	margin-bottom: 10px;
-	color: hsl(0, 0%, 59%);
 	margin-bottom: 25px;
+	color: hsl(0, 0%, 59%);
 }
 .headerImg {
 	margin-top: 40px;
-	margin-bottom: 30px;
-
+	margin-bottom: 25px;
 }
 .containers {
 	width: 590px;
 	height: 80px;
 	display: flex;
-	/*flex-direction: row;*/
-	
-	margin-bottom: 50px;
-	margin-left: 380px;
+	margin-bottom: 25px;
+	margin: auto;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	
 }
 .container1 {
-	/*display: flex;
-	flex-direction: row;
-	justify-content: center;
-	/*margin-bottom: 50px;*/
-	
 	width: 390px;
-	
 	height: 35px;
-	
 }
 .inputEmail {
 	width: 400px;
@@ -73,35 +58,26 @@ input:focus {
 	border: 1px solid hsl(0, 0%, 59%);
 	border-radius: 15px;
 	margin-right: 5px;
-	color: hsl(0, 0%, 59%);
-	padding-left: 10px;
-	
+	color:  black;
+	padding-left: 20px;
+	opacity: 0.3;
 }
-
 .container3 {
-	
 	width: 250px;
 	height: 35px;
-	/*margin-left: 350px;
-	margin-top: -70px;
-	margin-bottom: 50px;
-*/
-
-
 }
 #hiddenPara {
 	display: none;
 	color: hsl(354, 100%, 66%);
 	font-size: 11px;
-	/*border:  1px solid black;*/
-	/*padding-left: 10px;*/
+	margin-top: 5px;
+	margin-bottom: 20px;
+	text-align: left;
+	padding-left: 20px;
 }
-
 .container2 {
 	width: 160px;
 	height: 37px;
-	
-
 }
 .container2 button {
 	width: 160px;
@@ -109,18 +85,13 @@ input:focus {
 	border:  1px solid hsl(223, 100%, 88%);
 	border-radius: 15px;
 	color:  #fff;
-	background-color: hsl(223, 100%, 88%);
-	/*box-shadow: 0 6px 12px 0.2 rgba(0, 0, 0, 0.5);*/
-	
+	background-color: hsl(223, 87%,63%);
+	box-shadow: 0 5px 8px 0.2px hsla(223, 100%, 88%, 0.8);
 }
-
-
-
 .mainPic img {
 	width: 600px;
 	height: 250px;
 	margin-bottom: 20px;
-
 }
 .social i {
 	width: 25px;
@@ -129,7 +100,7 @@ input:focus {
 	margin-right: 7px;
 	margin-bottom: 10px;
 	color:  hsl(223, 87%, 63%);
-	border: 0.1px solid hsl(0, 0%, 59%);
+	border: 0.1px solid antiquewhite;
 	border-radius: 100%;
 }
 .social i:hover {
@@ -141,10 +112,7 @@ input:focus {
 .copyright {
 	font-size: 10px;
 	color: hsl(0, 0%, 59%);
-	
 }
-
-
 .attribution { 
 	font-size: 11px; 
 	text-align: center; 
@@ -154,61 +122,56 @@ input:focus {
 	color: hsl(228, 45%, 44%); 
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 750px){
+	
 	.logo {
 		height: 20px;
 	}
-
 	h1 {
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.containers {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
 		width: 300px;
-		margin-left: 100px;
+		margin-left: auto;
+		margin-bottom: 60px;
 	}
 	.container1 {
 		order:  1;
 		width: 300px;
 	}
 	.inputEmail {
-		width: 290px;
+		width: 240px;
 	}
 	.container3 {
 		order:  2;
 		margin-bottom: 10px;
-		
+		text-align: center;
 	}
 	.container2 {
 		order:  3;
 		width: 300px;
 	}
 	.container2 button {
-		width: 300px;
+		width: 270px;
 	}
-	
-
 	.mainPic img {
 	width: 300px;
 	height: 140px;
 	margin-bottom: 60px;
-
-}
-	.emailInfo {
-	
-	
-
-}
-.social {
+	}
+	#hiddenPara {
+		text-align: center;
+	}
+	.social {
 	margin-bottom: 10px;
-}
-.social i {
+	}
+	.social i {
 	width: 14px;
 	height: 14px;
 	padding: 6px 9px 10px 5px;
 	margin-right: 5px;
-	
 	}
 }
