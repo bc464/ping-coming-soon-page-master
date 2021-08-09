@@ -37,13 +37,13 @@ input:focus {
 }
 .headerImg {
 	margin-top: 40px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 .containers {
 	width: 590px;
 	height: 80px;
 	display: flex;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 	margin: auto;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -63,10 +63,20 @@ input:focus {
 	opacity: 0.3;
 }
 .container3 {
-	width: 250px;
+	width: 350px;
 	height: 35px;
+
 }
 #hiddenPara {
+	display: none;
+	color: hsl(354, 100%, 66%);
+	font-size: 11px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	text-align: left;
+	padding-left: 20px;
+}
+#hiddenPara2 {
 	display: none;
 	color: hsl(354, 100%, 66%);
 	font-size: 11px;
@@ -91,6 +101,7 @@ input:focus {
 .mainPic img {
 	width: 600px;
 	height: 250px;
+	margin-top: 32px;
 	margin-bottom: 20px;
 }
 .social i {
@@ -148,7 +159,6 @@ input:focus {
 	.container3 {
 		order:  2;
 		margin-bottom: 10px;
-		text-align: center;
 	}
 	.container2 {
 		order:  3;
@@ -160,10 +170,11 @@ input:focus {
 	.mainPic img {
 	width: 300px;
 	height: 140px;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	}
-	#hiddenPara {
-		text-align: center;
+	#hiddenPara2 {
+		margin-left: 40px;
+		margin-top: 10px;
 	}
 	.social {
 	margin-bottom: 10px;

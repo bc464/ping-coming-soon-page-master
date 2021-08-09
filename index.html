@@ -32,16 +32,17 @@
     <div class="containers">
       <div id="inputEmail" class="container1">
        <form action="/action_page.php">
-        <input   class="inputEmail" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Your email address..">
+        <input   class="inputEmail" type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Your email address..">
       </form>
       </div>
      
         <div class="container2">
       <button id="btn">Notify Me</button>
     </div>
-  
-      <div id="hiddenPara" class="container3">
-        <p  >Please provide a valid email address</p>
+
+      <div class="container3">
+        <p id="hiddenPara"><em>Whoops! It looks like you forgot to add your email</em></p>
+        <p id="hiddenPara2"><em>Please provide a valid email address</em></p>
       </div> 
     </div>
   </section>
